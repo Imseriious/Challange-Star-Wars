@@ -5,8 +5,9 @@ import Header from './Header'
 
 const defaultFilters = {
     gender: ['male', 'female', 'n/a'],
-    eye_color: ['n/a', 'yellow', 'blue', 'red', 'brown']
-
+    eye_color: ['n/a', 'yellow', 'blue', 'red', 'brown'],
+    skin_color: ['n/a', 'light', 'gold', 'fair', 'green', 'pale'],
+    hair_color: ['n/a', 'none', 'brown', 'black', 'grey', 'blond', 'white']
 }
 
 const PeopleFilter = ({ filters = {}, open, onClose, onChange }) => {
